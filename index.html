@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khalid Global Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">Khalid Global Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#" id="nav-home">Home</a></li>
+        <li><a href="#" id="nav-products">Products</a></li>
+        <li><a href="#" id="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+    <select id="language-selector" onchange="changeLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="ar">العربية</option>
+      <option value="fr">Français</option>
+    </select>
+  </header>
+
+  <section class="hero">
+    <h2 id="hero-title">Discover Our Premium Products</h2>
+    <p id="hero-subtitle">Global quality, Khalid's design</p>
+    <button id="shop-now">Shop Now</button>
+  </section>
+
+  <section class="products">
+    <h2 id="featured-products">Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 1" />
+        <h3 id="product1-name">Luxury Product 1</h3>
+        <p id="product1-desc">Short description of the product</p>
+        <button onclick="addToCart('Luxury Product 1')" id="product1-btn">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 2" />
+        <h3 id="product2-name">Luxury Product 2</h3>
+        <p id="product2-desc">Short description of the product</p>
+        <button onclick="addToCart('Luxury Product 2')" id="product2-btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p id="footer-text">© 2025 Khalid Global Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
