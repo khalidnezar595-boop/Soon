@@ -3,54 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Khalid Global Store</title>
+  <title>Horizon - Global E-Commerce</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1 id="title">Khalid Global Store</h1>
+    <h1>Horizon</h1>
     <nav>
       <ul>
-        <li><a href="#" id="nav-home">Home</a></li>
-        <li><a href="#" id="nav-products">Products</a></li>
-        <li><a href="#" id="nav-contact">Contact</a></li>
+        <li><a href="auth/login.html">Login</a></li>
+        <li><a href="auth/register.html">Register</a></li>
+        <li><a href="products/view.html">Browse Products</a></li>
       </ul>
     </nav>
-    <select id="language-selector" onchange="changeLanguage(this.value)">
-      <option value="en">English</option>
-      <option value="ar">العربية</option>
-      <option value="fr">Français</option>
-    </select>
   </header>
 
-  <section class="hero">
-    <h2 id="hero-title">Discover Our Premium Products</h2>
-    <p id="hero-subtitle">Global quality, Khalid's design</p>
-    <button id="shop-now">Shop Now</button>
-  </section>
-
-  <section class="products">
-    <h2 id="featured-products">Featured Products</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Product 1" />
-        <h3 id="product1-name">Luxury Product 1</h3>
-        <p id="product1-desc">Short description of the product</p>
-        <button onclick="addToCart('Luxury Product 1')" id="product1-btn">Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Product 2" />
-        <h3 id="product2-name">Luxury Product 2</h3>
-        <p id="product2-desc">Short description of the product</p>
-        <button onclick="addToCart('Luxury Product 2')" id="product2-btn">Add to Cart</button>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h2>Build Your Global Store with Horizon</h2>
+      <p>Launch, manage, and grow your business with ease.</p>
+      <a href="auth/register.html"><button>Get Started</button></a>
+    </section>
+  </main>
 
   <footer>
-    <p id="footer-text">© 2025 Khalid Global Store. All rights reserved.</p>
+    <p>&copy; 2025 Horizon Inc. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
+<!-- SEO Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Discover and sell amazing products worldwide. Join our global marketplace today.">
+<meta name="keywords" content="ecommerce, online store, global marketplace, buy, sell, products">
+<meta name="author" content="Khalid">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Global Marketplace - Buy & Sell Products">
+<meta property="og:description" content="Discover and sell amazing products worldwide. Join our global marketplace today.">
+<meta property="og:image" content="https://yourdomain.com/images/banner.jpg">
+<meta property="og:url" content="https://yourdomain.com">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Global Marketplace - Buy & Sell Products">
+<meta name="twitter:description" content="Discover and sell amazing products worldwide. Join our global marketplace today.">
+<meta name="twitter:image" content="https://yourdomain.com/images/banner.jpg">

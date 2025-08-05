@@ -1,0 +1,1 @@
+console.log("Welcome to Horizon - Global E-Commerce Platform");

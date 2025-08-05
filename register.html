@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register - Horizon</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <h2>Create Your Horizon Account</h2>
+  <form onsubmit="registerUser(event)">
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email" required />
+    <input type="password" placeholder="Password" required />
+    <select required>
+      <option value="">Select Role</option>
+      <option value="seller">Seller</option>
+      <option value="buyer">Buyer</option>
+      <option value="admin">Admin</option>
+    </select>
+    <button type="submit">Register</button>
+  </form>
+
+  <script type="module" src="../firebase-config.js"></script>
+  <script type="module" src="auth.js"></script>
+</body>
+</html>
